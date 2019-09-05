@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "e54b80e7-54e6-431a-9120-4341dad9df7a": {
+        "id": "e54b80e7-54e6-431a-9120-4341dad9df7a",
+        "parent": null,
+        "name": "l",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "9b9677d4-7f12-4307-8ddb-237cac153d9e"
+        ],
+        "isRemovable": false,
+        "filePath": "l"
+      },
+      "9b9677d4-7f12-4307-8ddb-237cac153d9e": {
+        "id": "9b9677d4-7f12-4307-8ddb-237cac153d9e",
+        "parent": "e54b80e7-54e6-431a-9120-4341dad9df7a",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "l/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed-opened by IR\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 1024,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "e54b80e7-54e6-431a-9120-4341dad9df7a",
+    "openFiles": [
+      "9b9677d4-7f12-4307-8ddb-237cac153d9e"
+    ],
+    "currentFileId": "9b9677d4-7f12-4307-8ddb-237cac153d9e",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "l",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1567661841761
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "l",
+      "url": "https://github.com/Indunil1992/l"
+    }
+  }
+}
